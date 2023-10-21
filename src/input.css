@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "CIRCULARMedium";
+    src: url(../dist/fonts/CircularStd-Medium.otf);
+}
+
+svg { width: 20px; height: 20px; }
+
+.video{
+    height: 70vh;
+    width: 100%;
+}
